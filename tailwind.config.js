@@ -16,7 +16,11 @@ export default {
       green: '#4c7c7d',
       red: '#e45959',
       ivory: '#edeae7'
+      
 
+      //Other Colors
+
+      
     },
     screens: {
       tablet: '640px',
