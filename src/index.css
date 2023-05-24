@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---- ------- --- */
+/* ---- GLOBALS --- */
+/* ---- ------- --- */
 :root{
   margin:0;
   padding: 0;
@@ -17,9 +20,9 @@ body {
   @apply bg-ivory;
 }
 
-
+/* ---- ---------- ---- */
 /* ---- TYPOGRAPHY ---- */
-
+/* ---- ---------- ---- */
 @font-face {
   font-family: 'Gilroy';
   src: url('./assets/fonts/gilroy-extrabold.otf') format('opentype');
