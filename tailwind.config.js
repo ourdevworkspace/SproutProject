@@ -15,7 +15,14 @@ export default {
       brown: '#383634',
       green: '#4c7c7d',
       red: '#e45959',
-      ivory: '#edeae7'
+      ivory: '#edeae7',
+      acadia: "#383634",
+      paradiso: "#4c7c7d",
+      roman: "#e45959",
+      desertStorm: "#edeae7",
+      seaShell: "#f6f4f2",
+      white: "#ffffff",
+      dawn: "#a4a2a0",
       
 
       //Other Colors
