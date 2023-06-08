@@ -1,6 +1,6 @@
 
 
-function Layout(children) {
+function Layout({children}) {
 
   return (
     <div>
