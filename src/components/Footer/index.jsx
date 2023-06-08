@@ -1,4 +1,4 @@
-
+import LinksSection from "./LinksSection"
 
 function Footer() {
 
@@ -10,34 +10,9 @@ function Footer() {
                 <p className="text-base opacity-80">SPROUT goods Ltd.</p>
                 <p className="text-sm opacity-60">2021 r All rights reserved</p>
             </div>
-            <div className='tablet:flex tablet:flex-col tablet:justify-between'>
-                <h3 className="text-lg">Company</h3>
-                <div className="tablet:flex tablet:flex-col tablet:gap-2">
-                    <p>About</p>
-                    <p>Store</p>
-                    <p>FAQ</p>
-                </div>
-            </div>
-            <div className='tablet:flex tablet:flex-col tablet:justify-between'>
-                <h3 className="text-lg">Service</h3>
-                <div className="tablet:flex tablet:flex-col tablet:gap-2">
-                    <p>Delivery</p>
-                    <p>Paymant</p>
-                    <p>Contacts</p>
-                </div>
-            </div>
-
-
-            <div className='tablet:flex tablet:flex-col tablet:justify-between'>
-                <h3 className="text-lg">Follow us</h3>
-                <div className="tablet:flex tablet:flex-col tablet:gap-2">
-                    <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                </div>
-            </div>
-
-
+            <LinksSection title='Company' link1='About' link2='Store' link3='FAQ'/>
+            <LinksSection title='Service' link1='Delivery' link2='Paymant' link3='Contacts'/>
+            <LinksSection title='Follow Us' link1='Instagram' link2='Facebook' link3='Twitter'/>
             <div className='tablet:flex tablet:flex-col tablet:justify-between'>
                 <h3 className="text-lg">Get our newsletters:</h3>
                 <div>
@@ -51,9 +26,9 @@ function Footer() {
                     <a>Privacy policy</a>
                 </div>
             </div>
-
         </footer>
     )
+
 }
 
 export default Footer
