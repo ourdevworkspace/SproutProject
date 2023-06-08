@@ -1,4 +1,5 @@
 import logo from './assets/images/logo.png'
+import Footer from './components/Footer'
 
 
 
@@ -6,7 +7,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='flex flex-col min-h-[100vh] justify-between'>
       {/*     <!-- LAYOUT --> */}
       <div className="layout">
         {/*    <!-- HEADER --> */}
@@ -70,7 +71,10 @@ function App() {
           </section>
         </main>
       </div>
-    </>
+      <div className='bg-ivory tablet:h-[20rem]'>
+        <Footer />
+      </div>
+    </div>
   )
 }
 

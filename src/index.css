@@ -27,7 +27,7 @@
   }
 
   body {
-    @apply bg-ivory;
+    @apply bg-whiteBg;
   }
 
   button {
