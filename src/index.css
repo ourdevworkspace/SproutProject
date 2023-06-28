@@ -61,7 +61,7 @@
 @layer components {
 
   /* LAYOUT */
-  .layout {
+  .outlet_header__container {
     max-width: 100vw;
     width: 100%;
     padding: 2rem 0;

@@ -10,6 +10,7 @@ function MyProvider({children}){
             {children}
         </Provider>
     )
+    
 }
 
 export default MyProvider

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider } from "react-router-dom";
 
 import { router } from './router/index.jsx';
-import MyProvider from './context/cartContext';
+import MyProvider from './context/CartContext.jsx';
 
 import './index.css'
 
