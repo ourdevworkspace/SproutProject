@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Root() {
+function MainPage() {
   return (
       <main className="main">
         {/* <!-- BANNERS --> */}
@@ -22,4 +22,4 @@ function Root() {
   )
 }
 
-export default Root
+export default MainPage
