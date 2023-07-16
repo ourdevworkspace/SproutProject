@@ -23,11 +23,13 @@
 
   a {
     text-decoration: none;
-    @apply text-acadia
+    @apply text-acadia;
   }
 
   body {
     @apply bg-whiteBg;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
   }
 
   button {
@@ -41,6 +43,15 @@
     gap: 1rem;
     cursor: pointer;
   }
+
+  /* GENERAL: MATERIAL SYMBOLS */
+  .material-symbols-outlined {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    color: var(--acadia);
+  }
 }
 
 /* ---- ---------- ---- */
@@ -53,48 +64,16 @@
   font-weight: normal;
 }
 
-
 /* ----------------------------------- */
 /* --------- SIMON'S GLOBALS --------- */
 /* ----------------------------------- */
 
 @layer components {
-
   /* LAYOUT */
   .header_outlet__container {
     max-width: 100vw;
     width: 100%;
     padding: 2rem 0;
-  }
-
-  /* HEADER */
-  .header {
-    width: 134rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 700;
-  }
-
-  @media (max-width: 85rem) {
-    .header {
-      width: 100%;
-      padding: 0 1rem;
-    }
-  }
-
-  /* HEADER: LEFT & RIGHT */
-  .header__left,
-  .header__right {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  /* HEADER: LEFT - LOGO */
-  .header__left--logo img {
-    height: 4rem;
   }
 
   /* HEADER: LEFT - SEARCH */
@@ -115,6 +94,7 @@
 
   .header__left--search input {
     font-family: 'Lato', sans-serif;
+    font-size: 14px;
     outline: none;
     background: none;
     border: none;
@@ -288,13 +268,4 @@
   .banners__controls--left {
     background-color: var(--acadia);
   }
-}
-
-/* GENERAL: MATERIAL SYMBOLS */
-.material-symbols-outlined {
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer;
-  color: var(--acadia);
 }
